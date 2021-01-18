@@ -1,12 +1,15 @@
-# Concerned FarLands Mod
+# Fabric Example Mod
 
 ## Setup
 
-Just, don't.
+1. Edit build.gradle and mod.json to suit your needs.
+    * The "mixins" object can be removed from mod.json if you do not need to use mixins.
+    * Please replace all occurences of "modid" with your own mod ID - sometimes, a different string may also suffice.
+2. Run the following command:
 
-## Zeta what is this...
-
-A really :concern: mod that adds the farlands back in modern versions, except its not version independant and geniii's mod is 50x better than this. Like I said, don't use this. If u really want to use this despite the warnings build it yourself.
+```
+./gradlew idea
+```
 
 ## License
 

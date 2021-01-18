@@ -1,12 +1,12 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.zeta.cursedfarlands.mixin",
+  "package": "net.zeta.farlandsremover.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
   ],
   "client": [
-    "ConcernedFarlandsMixin"
+    "removePrecisionFixMixin"
   ],
   "injectors": {
     "defaultRequire": 1
