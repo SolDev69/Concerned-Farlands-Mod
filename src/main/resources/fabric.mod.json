@@ -6,7 +6,7 @@
   "name": "Concerned Farlands",
   "description": "Don't ask. A port of my equally concern 1.12.2 farlands mod.",
   "authors": [
-    "Me!"
+    "ZetaTheEliatrope"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.zeta.cursedfarlands.ExampleMod"
+      "net.zeta.cursedfarlands.ConcernedFarlandsUnusedMain"
     ]
   },
   "mixins": [
