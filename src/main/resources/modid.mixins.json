@@ -2,11 +2,21 @@
   "required": true,
   "minVersion": "0.8",
   "package": "net.zeta.cursedfarlands.mixin",
-  "compatibilityLevel": "JAVA_8",
+  "compatibilityLevel": "JAVA_16",
   "mixins": [
+    "worldborder.supercoder.MixinEntity",
+    "worldborder.supercoder.MixinMinecraftServer",
+    "worldborder.supercoder.MixinPlayerEntity",
+    "worldborder.supercoder.MixinServerPlayNetworkHandler",
+    "worldborder.supercoder.MixinWorld",
+    "worldborder.supercoder.MixinWorldBorder",
+    "worldborder.supercoder.MixinWorldBorderProperties",
+    "worldborder.supercoder.beta.MixinAquafierSampler",
+    "worldborder.zeta.MixinLinkedBlockPosHashSetStorage",
+    "worldborder.zeta.MixinWorldBorderCommand",
+    "worldborder.zeta.MixinWorldView"
   ],
   "client": [
-    "ConcernedFarlandsMixin"
   ],
   "injectors": {
     "defaultRequire": 1

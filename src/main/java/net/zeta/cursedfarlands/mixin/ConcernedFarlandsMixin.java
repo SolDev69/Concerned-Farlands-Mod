@@ -16,6 +16,9 @@ public class ConcernedFarlandsMixin {
 	//private void init(CallbackInfo info) {
 	//	System.out.println("This line is printed by an example mod mixin!");
 	//}
+	/**
+	 * @author E
+	 */
 	@Overwrite
 	public static double maintainPrecision(double d) {
 		return d;
