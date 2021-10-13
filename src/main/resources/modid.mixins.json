@@ -14,7 +14,8 @@
     "worldborder.supercoder.beta.MixinAquafierSampler",
     "worldborder.zeta.MixinLinkedBlockPosHashSetStorage",
     "worldborder.zeta.MixinWorldBorderCommand",
-    "worldborder.zeta.MixinWorldView"
+    "worldborder.zeta.MixinWorldView",
+    "ConcernedFarlandsMixin"
   ],
   "client": [
   ],
