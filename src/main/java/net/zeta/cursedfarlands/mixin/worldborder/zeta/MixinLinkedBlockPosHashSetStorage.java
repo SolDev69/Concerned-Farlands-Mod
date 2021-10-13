@@ -16,7 +16,7 @@ public class MixinLinkedBlockPosHashSetStorage {
     private static int HORIZONTAL_COLUMN_BIT_SEPARATION;
     @Inject(method = "<clinit>", at = @At("RETURN"))
     private void handleConstructor(CallbackInfo ci) {
-        STARTING_OFFSET = MathHelper.log2(Integer.MAX_VALUE);
-        HORIZONTAL_COLUMN_BIT_SEPARATION = MathHelper.log2(Integer.MAX_VALUE);
+        STARTING_OFFSET = MathHelper.floorLog2(Integer.MAX_VALUE);
+        HORIZONTAL_COLUMN_BIT_SEPARATION = MathHelper.floorLog2(Integer.MAX_VALUE);
     }
 }
